@@ -11,4 +11,14 @@ The size of movement depends on size of gradient as well as another paramter cal
 
  As a result, there are variants of gradient descent developed. In this project, we will demonstrate two types which are Momentum and RMSprop gradient descent. The addition of the first method from the plain vanilla one is that the size of movement also depend  of the gradient at previous point which make the algorithm converge faster as it is close to minimum point and might be able to go through saddle point. The development of thesecond method is that the step size is reduced as go through iteration. This allow us to use larger step size in the very first iterations which make convergence faster.
  
- In this project, we will demonstrate the gradient descent algorithm via ......... function as shown in figure below. The optimization path will be shown in 3D diagram as well as the animation which can be seen in Colab. Additaionally, the interactive animation can be used to see the effects of each parameter on the algorithm by running the code in your own notebook, and the heatmap graph is also used to investigate the speed of convergence of sets of parameters 
+ In this project, we will demonstrate the gradient descent algorithm via ......... function as shown in figure below. The optimization path will be shown in 3D diagram as well as the animation which can be seen in Colab. Additaionally, the interactive animation can be used to see the effects of each parameter on the algorithm by running the code in your own notebook, and the heatmap graph is also used to investigate the speed of convergence of sets of parameters. 
+
+The fastest covergence of each gradient descent along with their hyperparamters are shown below.
+ 
+ | Algorithms | NO of Iterations | Learning rate (Eta) | Another Hyperparameter |
+| :---:        |     :---:      |          :---: | :---: |
+| Plain vanilla Gradient Descent   | 11   | 0.08212    |-|
+| Momentum  Gradient Descent     | 9       | 0.07411     |0.08273|
+| RMSprop  Gradient Descent     | 6       | 0.1603      |0.898|
+
+
