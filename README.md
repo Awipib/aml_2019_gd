@@ -19,4 +19,4 @@ The fastest covergence of each gradient descent along with their hyperparamters 
 | Momentum  Gradient Descent     | 9       | 0.07411     |0.08273|
 | RMSprop  Gradient Descent     | 6       | 0.1603      |0.898|
 
-
+RMSprop Gradient descent has the fastest convergence with 6 iterations as well as the largest leaning rate since the large learning rate enable the large move during the first iteration and the moment size decrease as it go through iteration. This prevent diverging from the minimum. The second fastest iteration is Momentum gradient descent, and its learning rate is much smaller than that of RMS prop and slightly lower than that of plain vanilla since it accounts the gradient of the previous positions. Therefore, it takes lower learning rate than that of plain vanilla. However, the optimal value shown in the table is only for the given starting point.
