@@ -9,7 +9,7 @@ For the plain vanilla gradient descent, the most common method in this kind of a
 As a result, there are variants of gradient descent developed. In this project, we will demonstrate two types which are Momentum and RMSprop gradient descent. The addition of Momentum on the plain vanilla is that the size of movement also depends on the gradient at previous points. This makes the algorithm to converge faster as it approaches a minimum due to the accumulated momentum of previous more steep points. Furthermore, this behaviour might also help to overcome saddle points. The development of RMSprop is that the step size is reduced as it goes through iterations. This allow us to have larger step sizes in the very first iterations which make convergence faster.
 
 In this project, we will demonstrate the gradient descent algorithm via Six-Hump Camel function as shown in figure below. The optimization path will be shown in 3D diagram as well as the animation which can be seen in Colab. Additionally, the interactive animation can be used to see the effects of each parameter on the algorithm by running the code in your own notebook, and the heatmap graph is also used to investigate the speed of convergence for sets of parameters.
-
+![SixHump](https://user-images.githubusercontent.com/52329752/60832682-660faf80-a1b4-11e9-8e93-9dd6117c7204.png)
 The fastest convergence of each gradient descent along with their hyperparameters are shown below.
  
  | Algorithms | NO of Iterations | Learning rate (Eta) | Another Hyperparameter |
