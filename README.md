@@ -16,7 +16,7 @@ In this project, we will demonstrate the gradient descent algorithm via Six-Hump
 ![SixHump](https://user-images.githubusercontent.com/52329752/60832682-660faf80-a1b4-11e9-8e93-9dd6117c7204.png)
 
 <p align="center">
-  <img width="600" height="200" src="https://user-images.githubusercontent.com/52329752/60832682-660faf80-a1b4-11e9-8e93-9dd6117c7204.png">
+  <img width="572" height="286" src="https://user-images.githubusercontent.com/52329752/60832682-660faf80-a1b4-11e9-8e93-9dd6117c7204.png">
 </p>
 
 The fastest convergence of each gradient descent along with their hyperparameters are shown below.
